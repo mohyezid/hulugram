@@ -24,7 +24,7 @@ import { setMode, setLogout } from "state";
 import { useNavigate } from "react-router-dom";
 import FlexBetween from "component/FlexBetween";
 import { useTheme } from "@emotion/react";
-function NavBar() {
+function  NavBar() {
   const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
